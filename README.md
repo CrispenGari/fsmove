@@ -1,4 +1,4 @@
-### fsmove
+### @crispengari/fsmove
 
 This package is build on top of the native `fs` package in node.js. It brings the interface of moving `files` or `folders` from one path to the other.
 
@@ -7,14 +7,14 @@ This package is build on top of the native `fs` package in node.js. It brings th
 1. yarn
 
 ```shell
-yarn add fsmove
+yarn add @crispengari/fsmove
 
 ```
 
 2. npm
 
 ```shell
-npm install fsmove
+npm install @crispengari/fsmove
 ```
 
 ### Usage
@@ -26,7 +26,7 @@ To use this package is very simple. All you need to do is to provide the path fo
 1. `es6` typescript example
 
 ```ts
-import { move } from "fsmove";
+import { move } from "@crispengari/fsmove";
 
 const source: string = "/path/source/filename.ext";
 const destination: string = "/path/destination/filename.ext";
@@ -41,7 +41,7 @@ moveFile();
 2. `es6` javascript example
 
 ```js
-import { move } from "fsmove";
+import { move } from "@crispengari/fsmove";
 
 const source = "/path/source/filename.ext";
 const destination = "/path/destination/filename.ext";
@@ -56,7 +56,7 @@ moveFile();
 3. `es5` javascript example.
 
 ```js
-const { move } = require("fsmove");
+const { move } = require("@crispengari/fsmove");
 
 const source = "/path/source/filename.ext";
 const destination = "/path/destination/filename.ext";
