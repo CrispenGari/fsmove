@@ -1,0 +1,40 @@
+{
+  "name": "fsmove",
+  "version": "1.0.2",
+  "description": "cmd commands",
+  "main": "src index.ts",
+  "license": "MIT",
+  "bin": "src/index.ts",
+  "author": "CrispenGari",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrispenGari/fsmove.git"
+  },
+  "dependencies": {
+    "@types/inquirer": "^7.3.3",
+    "@types/node": "^16.7.0",
+    "@types/npm": "^7.19.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "bugs": {
+    "url": "https://github.com/CrispenGari/fsmove/issues"
+  },
+  "homepage": "https://github.com/CrispenGari/fsmove#readme",
+  "keywords": [
+    "typescript",
+    "fsmove",
+    "javascript",
+    "js",
+    "commands",
+    "move",
+    "rm",
+    "rename"
+  ]
+}
